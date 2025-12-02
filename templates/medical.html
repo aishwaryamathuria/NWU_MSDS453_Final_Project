@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Q&A Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/medical.css') }}">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <h2>Initializing Medical Q&A Assistant</h2>
+            <div class="loading-spinner"></div>
+            <p id="loading-message">Processing medical knowledge base...</p>
+        </div>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div id="main-dashboard" style="display: none;">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Medical AI Assistant</h1>
+                </div>
+                <div class="dataset-switch">
+                    <a href="/" class="switch-link">Back to Home</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="container">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3>About</h3>
+                    <p>This AI assistant uses RAG with knowledge graph reasoning to answer questions about recent FDA drug approvals (2023-2024).</p>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3>Example Questions</h3>
+                    <div class="example-questions">
+                        <button class="example-btn" onclick="askQuestion('What is lecanemab used for?')">What is lecanemab used for?</button>
+                        <button class="example-btn" onclick="askQuestion('When was donanemab approved?')">When was donanemab approved?</button>
+                        <button class="example-btn" onclick="askQuestion('What does tofersen treat?')">What does tofersen treat?</button>
+                        <button class="example-btn" onclick="askQuestion('Tell me about zuranolone')">Tell me about zuranolone</button>
+                        <button class="example-btn" onclick="askQuestion('What is pirtobrutinib?')">What is pirtobrutinib?</button>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <button class="clear-btn" onclick="clearChat()">Clear Chat</button>
+                </div>
+            </aside>
+
+            <!-- Main Chat Area -->
+            <main class="chat-container">
+                <div class="chat-header">
+                    <h2>Ask about Recent FDA Drug Approvals (2023-2024)</h2>
+                </div>
+
+                <div class="chat-messages" id="chat-messages">
+                    <div class="welcome-message">
+                        <h3>Welcome!!</h3>
+                        <p>I can answer questions about recent FDA drug approvals including lecanemab, donanemab, tofersen, zuranolone, and more.</p>
+                        <p>Click on an example question to get started, or type your own question below.</p>
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <div class="audio-controls">
+                        <button type="button" id="mic-btn" class="audio-btn" onclick="toggleSpeechRecognition()" title="Voice Input">
+                            🎤 Speech Input. Click to start.
+                        </button>
+                        <button type="button" id="speaker-btn" class="audio-btn" onclick="toggleSpeechOutput()" title="Enable Speech Output">
+                            🔊 Speech Output. Click to enable.
+                        </button>
+                    </div>
+                    <form id="chat-form" onsubmit="sendMessage(event)">
+                        <input 
+                            type="text" 
+                            id="chat-input" 
+                            placeholder="Ask a medical question..."
+                            autocomplete="off"
+                            required
+                        >
+                        <button type="submit" id="send-btn">
+                            <span class="send-text">Send</span>
+                        </button>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        window.DATASET_ID = 'medical';
+    </script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
+

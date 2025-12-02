@@ -1,0 +1,81 @@
+RECENT FDA DRUG APPROVALS AND CLINICAL UPDATES 2023-2024
+
+Lecanemab (Leqembi) for Alzheimer's Disease
+
+Lecanemab, marketed as Leqembi by Eisai and Biogen, received FDA accelerated approval in January 2023 and full approval in July 2023 for treatment of early Alzheimer's disease. This humanized IgG1 monoclonal antibody targets soluble amyloid-beta aggregates (protofibrils) and has shown to reduce amyloid plaques in the brain.
+
+The pivotal Clarity AD trial enrolled 1,795 participants with early Alzheimer's disease (mild cognitive impairment or mild dementia) and confirmed amyloid pathology. At 18 months, lecanemab reduced clinical decline by 27% on the CDR-SB scale (p<0.001) compared to placebo. Participants received 10 mg/kg intravenous infusions every two weeks.
+
+Key safety considerations include amyloid-related imaging abnormalities (ARIA), occurring in approximately 21.3% of patients (ARIA-E in 12.6%, ARIA-H in 17.3%). Baseline and periodic MRI monitoring is required. The drug carries a boxed warning for ARIA. Contraindications include patients with two copies of the APOE4 gene due to higher ARIA risk.
+
+The annual cost is approximately $26,500 per patient. Medicare coverage was expanded in July 2023 following full FDA approval, requiring participation in a CMS-approved registry. Lecanemab represents the first disease-modifying therapy with robust evidence of slowing cognitive decline in Alzheimer's disease.
+
+Donanemab (Kisunla) for Alzheimer's Disease
+
+Donanemab, developed by Eli Lilly under the brand name Kisunla, received FDA approval in July 2024 for adults with early symptomatic Alzheimer's disease. This humanized IgG1 monoclonal antibody specifically targets N-terminal pyroglutamate amyloid-beta (N3pG), a particularly insoluble form of amyloid found in neuritic plaques.
+
+The TRAILBLAZER-ALZ 2 study, published in JAMA in July 2023, demonstrated that donanemab slowed cognitive decline by 35.1% at 76 weeks compared to placebo on the integrated Alzheimer's Disease Rating Scale (iADRS). The study enrolled 1,736 participants with early symptomatic Alzheimer's disease and confirmed amyloid and tau pathology.
+
+Unique to donanemab is its tau-based dosing strategy. Treatment can be discontinued once amyloid plaques are cleared to very low levels (below 24.1 centiloids on amyloid PET), occurring in approximately 47% of participants by 12 months and 72% by 18 months. This finite treatment approach differs from continuous therapy required for other anti-amyloid antibodies.
+
+ARIA occurred in 24% of participants (ARIA-E in 6.1%, ARIA-H in 19.7%). The drug is administered as 700 mg for the first three doses, then 1400 mg intravenously every four weeks. Donanemab showed greater benefit in participants with low-to-medium tau levels (tau Braak stage I-III) compared to high tau levels.
+
+Tofersen (Qalsody) for SOD1-ALS
+
+Tofersen, marketed as Qalsody by Biogen, received FDA accelerated approval in April 2023 for treatment of amyotrophic lateral sclerosis (ALS) associated with mutations in the superoxide dismutase 1 (SOD1) gene. This antisense oligonucleotide (ASO) specifically targets SOD1 mRNA, reducing production of the toxic SOD1 protein.
+
+The VALOR trial studied 108 adults with SOD1-ALS receiving tofersen 100 mg or placebo via intrathecal injection every two weeks for 24 weeks. While the primary endpoint (change in ALSFRS-R score) did not reach statistical significance in the overall population, prespecified analyses showed benefit in faster progressors and those with earlier disease.
+
+The open-label extension study demonstrated that early tofersen treatment resulted in slower decline in ALSFRS-R scores and longer survival compared to delayed treatment. Participants who started tofersen immediately showed a mean decline of 1.03 points per month versus 1.66 points per month in those who received delayed treatment (p=0.02).
+
+Neurofilament light chain (NfL), a biomarker of neuronal damage, decreased by an average of 55% at 28 weeks in tofersen-treated patients. CSF SOD1 protein levels decreased by approximately 36% at 12 weeks. Common adverse events include lumbar puncture-related complications, elevated CSF protein (26%), and myelitis (2%).
+
+Tofersen is administered as a loading dose of 100 mg intrathecally on days 1, 15, and 29, followed by maintenance dosing every 28 days. Approximately 2% of ALS cases are associated with SOD1 mutations, representing about 500-600 patients in the United States. The annual cost is approximately $375,000.
+
+Zuranolone (Zurzuvae) for Postpartum Depression
+
+Zuranolone, marketed as Zurzuvae by Sage Therapeutics and Biogen, received FDA approval in August 2023 as the first oral medication specifically for postpartum depression (PPD). This neuroactive steroid is a positive allosteric modulator of GABA-A receptors and represents a novel mechanism for treating PPD.
+
+The ROBIN study evaluated zuranolone 50 mg once daily for 14 days in 196 women with severe PPD (HAM-D score ≥26). At day 15, zuranolone demonstrated a statistically significant 4.2-point greater reduction in HAM-D total score compared to placebo (p<0.001). Importantly, the effect was sustained through day 45, 30 days after treatment completion.
+
+The SKYLARK study, involving 152 women with moderate to severe PPD, showed similar results with a 3.9-point greater reduction in HAM-D at day 15 (p=0.002). Response rates (≥50% reduction in HAM-D) were 57% for zuranolone versus 38% for placebo at day 15.
+
+Zuranolone is taken as 50 mg once daily in the evening for 14 days. The short treatment duration distinguishes it from traditional antidepressants requiring months of therapy. Common side effects include somnolence (15%), dizziness (14%), diarrhea (7%), and sedation (6%). Patients should not drive or operate machinery for at least 12 hours after taking zuranolone.
+
+The drug carries warnings about CNS depressant effects and potential for suicidal thoughts. It is pregnancy category X due to potential fetal harm. The 14-day treatment course costs approximately $15,900. Zuranolone provides a rapid-acting alternative for women with PPD who need quick symptom relief.
+
+Mirikizumab (Omvoh) for Ulcerative Colitis
+
+Mirikizumab, marketed as Omvoh by Eli Lilly, received FDA approval in October 2023 for treatment of moderately to severely active ulcerative colitis (UC) in adults. This humanized IgG4 monoclonal antibody selectively targets the p19 subunit of interleukin-23 (IL-23), inhibiting IL-23-mediated inflammatory pathways.
+
+The LUCENT-1 induction study evaluated 1,281 patients with moderate to severe UC who received mirikizumab 300 mg intravenously at weeks 0, 4, and 8. Clinical remission at week 12 was achieved in 24.2% of mirikizumab patients versus 13.3% on placebo (p<0.001). Endoscopic improvement occurred in 23.7% versus 12.4% (p<0.001).
+
+The LUCENT-2 maintenance study showed that among induction responders, 49.9% achieved clinical remission at week 40 with mirikizumab 200 mg subcutaneously every four weeks, compared to 25.1% with placebo (p<0.001). Corticosteroid-free remission was achieved in 37.6% versus 17.5% (p<0.001).
+
+Mirikizumab demonstrated efficacy in both biologic-naive and biologic-experienced patients. In the biologic-experienced population, clinical remission rates at week 40 were 43.7% for mirikizumab versus 22.0% for placebo. The drug showed particular benefit in patients who had failed anti-TNF therapy.
+
+The induction regimen consists of 300 mg IV at weeks 0, 4, and 8. Maintenance therapy is 200 mg subcutaneously every four weeks. Common adverse events include upper respiratory infections (14%), arthralgia (6%), and injection site reactions (4%). The drug should not be initiated in patients with active tuberculosis or serious infections.
+
+Pirtobrutinib (Jaypirca) for Mantle Cell Lymphoma
+
+Pirtobrutinib, marketed as Jaypirca by Eli Lilly, received FDA accelerated approval in January 2023 for adults with relapsed or refractory mantle cell lymphoma (MCL) after at least two lines of systemic therapy, including a BTK inhibitor. This highly selective, non-covalent (reversible) BTK inhibitor represents a new class of BTK inhibitors.
+
+The BRUIN study, a multicenter phase 1/2 trial, evaluated pirtobrutinib 200 mg once daily in 120 patients with relapsed/refractory MCL who had received a median of three prior therapies (range 1-7), including a covalent BTK inhibitor. The overall response rate was 57.5% with a complete response rate of 19.2%.
+
+Median duration of response was 19.6 months. Among patients who had progressed on covalent BTK inhibitors (ibrutinib, acalabrutinib, or zanubrutinib), the ORR was 51.7%. Importantly, pirtobrutinib demonstrated activity in patients with BTK C481S mutations, which confer resistance to covalent BTK inhibitors.
+
+The reversible binding mechanism of pirtobrutinib allows it to overcome resistance mutations that prevent covalent BTK inhibitor binding. The drug is administered as 200 mg orally once daily continuously until disease progression or unacceptable toxicity. Common adverse events include fatigue (27%), neutropenia (24%), diarrhea (21%), and thrombocytopenia (19%).
+
+Grade 3 or higher adverse events occurred in 51% of patients, with neutropenia (15%), thrombocytopenia (8%), and anemia (7%) being most common. Atrial fibrillation occurred in 3% of patients. The drug should be held for grade 3 or higher neutropenia or thrombocytopenia and dose-reduced if necessary.
+
+Elranatamab (Elrexfio) for Multiple Myeloma
+
+Elranatamab, marketed as Elrexfio by Pfizer, received FDA accelerated approval in August 2023 for adults with relapsed or refractory multiple myeloma after at least four prior lines of therapy, including a proteasome inhibitor, immunomodulatory agent, and anti-CD38 antibody. This bispecific T-cell engager (BiTE) antibody targets both BCMA (B-cell maturation antigen) on myeloma cells and CD3 on T cells.
+
+The MagnetisMM-3 study evaluated elranatamab in 123 patients with heavily pretreated multiple myeloma (median of five prior lines). The overall response rate was 61% with a complete response rate of 35%. Among patients who achieved at least a very good partial response, 88% had minimal residual disease (MRD) negativity at 10^-5 threshold.
+
+Median duration of response was 22.9 months. The median time to first response was one month, demonstrating rapid onset of action. Responses were observed across high-risk cytogenetic subgroups, including patients with del(17p), t(4;14), and t(14;16) abnormalities.
+
+Elranatamab is administered subcutaneously with a step-up dosing schedule to mitigate cytokine release syndrome (CRS). Priming doses of 12 mg and 32 mg are given on days 1 and 4, followed by 76 mg weekly for 24 weeks, then every two weeks thereafter. All patients receive tocilizumab premedication before the first three doses.
+
+CRS occurred in 56% of patients, predominantly grade 1-2 (54%), with grade 3 CRS in 2%. Median time to onset was two days. Neurotoxicity (ICANS) occurred in 6% of patients. Other common adverse events include infections (76%), injection site reactions (38%), fatigue (37%), and pyrexia (26%). The drug requires hospitalization for the first two doses.

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherlock Holmes Q&A Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <h2>Initializing Sherlock Holmes Q&A Assistant</h2>
+            <div class="loading-spinner"></div>
+            <p id="loading-message">Processing A Study in Scarlet...</p>
+        </div>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div id="main-dashboard" style="display: none;">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Sherlock Holmes Q&A Assistant</h1>
+                </div>
+                <div class="dataset-switch">
+                    <a href="/" class="switch-link">Back to Home</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="container">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3>About</h3>
+                    <p>This AI assistant uses Retrieval-Augmented Generation (RAG) with knowledge graph reasoning to answer questions about <em>A Study in Scarlet</em>.</p>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3>Example Questions</h3>
+                    <div class="example-questions">
+                        <button class="example-btn" onclick="askQuestion('Who is Sherlock Holmes?')">Who is Sherlock Holmes?</button>
+                        <button class="example-btn" onclick="askQuestion('Who is Dr. Watson?')">Who is Dr. Watson?</button>
+                        <button class="example-btn" onclick="askQuestion('What is the mystery about?')">What is the mystery about?</button>
+                        <button class="example-btn" onclick="askQuestion('Where does the story take place?')">Where does the story take place?</button>
+                        <button class="example-btn" onclick="askQuestion('Tell me about Jefferson Hope')">Tell me about Jefferson Hope</button>
+                        <button class="example-btn" onclick="askQuestion('What is Holmes method?')">What is Holmes' method?</button>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <button class="clear-btn" onclick="clearChat()">Clear Chat</button>
+                </div>
+            </aside>
+
+            <!-- Main Chat Area -->
+            <main class="chat-container">
+                <div class="chat-header">
+                    <h2>Ask me anything about <em>A Study in Scarlet</em></h2>
+                </div>
+
+                <div class="chat-messages" id="chat-messages">
+                    <div class="welcome-message">
+                        <h3>Welcome!!</h3>
+                        <p>I can answer questions about <em>A Study in Scarlet</em> by Sir Arthur Conan Doyle.</p>
+                        <p>Click on an example question to get started, or type your own question below.</p>
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <div class="audio-controls">
+                        <button type="button" id="mic-btn" class="audio-btn" onclick="toggleSpeechRecognition()" title="Voice Input">
+                            🎤 Speech Input. Click to start.
+                        </button>
+                        <button type="button" id="speaker-btn" class="audio-btn" onclick="toggleSpeechOutput()" title="Enable Speech Output">
+                            🔊 Speech Output. Click to enable.
+                        </button>
+                    </div>
+                    <form id="chat-form" onsubmit="sendMessage(event)">
+                        <input 
+                            type="text" 
+                            id="chat-input" 
+                            placeholder="Ask a question or click microphone to speak..."
+                            autocomplete="off"
+                            required
+                        >
+                        <button type="submit" id="send-btn">
+                            <span class="send-text">Send</span>
+                        </button>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        window.DATASET_ID = 'sherlock';
+    </script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant - Select Dataset</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/landing.css') }}">
+</head>
+<body>
+    <div class="landing-container">
+        <div class="landing-content">
+            <h1>An Audio Enabled RAG-Enhanced Question Answering System with Knowledge Graph Integration</h1>
+            <div class="dataset-selector">
+                <h2>Select a Knowledge Base</h2>
+                <div class="dataset-cards">
+                    <a href="/sherlock" class="dataset-card sherlock-card">
+                        <h3>Sherlock Holmes</h3>
+                        <p>Ask questions about "A Study in Scarlet" by Sir Arthur Conan Doyle</p>
+                    </a>
+                    
+                    <a href="/medical" class="dataset-card medical-card">
+                        <h3>FDA Drug Approvals 2023-2024</h3>
+                        <p>Ask questions about recent drug approvals including lecanemab, donanemab, tofersen, and more</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
