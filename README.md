@@ -6,5 +6,5 @@ The goal of this project is to build an intelligent question-answering system fo
 The agent will process information from multiple Sherlock Holmes stories and extend to medical database, aiming to answer both simple and multi-step questions accurately. I chose this topic because it brings together two exciting areas in Natural Language Processing: foundational language models and Retrieval-Augmented Generation (RAG) enhanced with knowledge graphs, and applies them to achieve a creative goal.
 
 ### Architecture
-<img width="1697" height="707" alt="architecture-diagram" src="https://github.com/user-attachments/assets/7dac35ad-620b-4f1b-a642-4cf768c7de0c" />
+<img width="1697" height="707" alt="architecture-diagram" src="https://raw.githubusercontent.com/aishwaryamathuria/NWU_MSDS453_Final_Project/refs/heads/main/architecture/architrecture_diagram.svg" />
 
