@@ -1,5 +1,5 @@
 ### MSDS453: Natural Language Processing
-## An Audio Enabled RAG-Enhanced Question Answering System with Knowledge Graph Integration
+## Audio Enabled RAG-Enhanced Question Answering System with Knowledge Graph Integration
 
 The goal of this project is to build an intelligent question-answering system for the **Sherlock Holmes stories** and extend it to **medical dataset** using speech-to-text (STT) for user queries and text-to-speech (TTS) for responses. The system combines Retrieval-Augmented Generation (RAG) with knowledge graph reasoning through the smolagents framework to build an agent capable of handling both retrieval and reasoning while interacting via speech.
 
